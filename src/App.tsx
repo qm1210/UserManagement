@@ -1,4 +1,4 @@
-import { Button, Container, Modal } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import "./App.scss";
 import Header from "./components/Header";
 import TableUsers from "./components/TableUsers";
@@ -10,8 +10,6 @@ import type { TableUsersRef } from "./models/Users.model";
 function App() {
   const [isShowModal, setShowModal] = useState(false);
   const tableRef = useRef<TableUsersRef>(null);
-  const token =
-    localStorage.getItem("token") || sessionStorage.getItem("token");
   const [isLoggedIn, setIsLoggedIn] = useState(() => {
     return !!(localStorage.getItem("token") || sessionStorage.getItem("token"));
   });

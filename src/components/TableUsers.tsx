@@ -77,6 +77,7 @@ const TableUsers = forwardRef<TableUsersRef, TableUsersProps>((props, refs) => {
 
   return (
     <div>
+      <p>Total Users: {totalUsers}</p>
       <Table striped bordered hover>
         <thead>
           <tr>
