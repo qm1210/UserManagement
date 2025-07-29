@@ -48,6 +48,7 @@ const RegisterForm = ({ show, onClose }: RegisterFormProps) => {
         setPassword("");
         setTermsAccepted(false);
         toast.success("Registration successful!");
+        onClose();
       } else {
         toast.error("Registration failed.");
       }

@@ -68,7 +68,7 @@ const ModalAddNew = (props: ModalAddNewProps) => {
             Close
           </Button>
           <Button variant="primary" onClick={handleSaveUser}>
-            Save Changes
+            Add User
           </Button>
         </Modal.Footer>
       </Modal>
