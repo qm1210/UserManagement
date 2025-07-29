@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.LogSignButton {
+  min-width: 100px;
+}* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 991.98px) { // Bootstrap breakpoint cho 'lg'
+  .navbar-nav {
+    .dropdown-menu {
+      margin-bottom: 12px;
+    }
+  }
+}
